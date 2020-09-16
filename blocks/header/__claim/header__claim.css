@@ -2,8 +2,15 @@
   text-decoration: none;
   color: #0f0f0f;
   font-weight: bold;
+  font-size: 13px;
 }
 
 .header__claim:hover {
   opacity: 0.8;
+}
+
+@media (max-width: 520px) {
+	.header__claim {
+		display: none;
+	}
 }
