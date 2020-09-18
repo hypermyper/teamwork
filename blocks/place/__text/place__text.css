@@ -3,3 +3,9 @@
   grid-area: text;
   align-self: end;
 }
+
+@media (max-width: 320px) {
+  .place__text {
+    padding: 30px;
+  }
+}

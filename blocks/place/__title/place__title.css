@@ -4,3 +4,10 @@
   padding: 70px;
   font-size: 33px;
 }
+
+@media (max-width: 320px) {
+	.place__title {
+		padding: 30px;
+		font-size: 21px;
+	}
+}
