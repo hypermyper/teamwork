@@ -1,0 +1,15 @@
+.place_direction_reverse {
+	grid-template-areas:
+	"title image"
+	"text image";
+}
+
+@media (max-width: 675px) {
+	.place_direction_reverse {
+		  grid-template-columns: 1fr;   
+	  	grid-template-areas:
+				"image"
+				"title"
+				"text";  
+	}
+}

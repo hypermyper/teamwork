@@ -6,3 +6,9 @@
   margin: 0 auto;
   padding: 50px 67px 88px 67px;
   }
+
+  @media (max-width: 320px) {
+    .header {
+      padding: 50px 30px 60px 30px;
+    }
+  }

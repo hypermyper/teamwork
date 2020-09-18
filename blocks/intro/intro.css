@@ -4,7 +4,7 @@
   justify-content: space-between;
   max-width: 1050px;
   margin: 0 auto;
-  padding: 0 160px 120px 67px;
+  padding: 0 160px 130px 67px;
 }
 
 @media (max-width: 1100px) {
@@ -17,4 +17,11 @@
   .intro {
     flex-direction: column;
   }
+}
+
+@media (max-width: 320px) {
+	.intro {
+		width: calc(100% - 30px*2);
+    padding: 0 0 30px 0;		
+	}
 }

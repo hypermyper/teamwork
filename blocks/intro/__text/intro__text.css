@@ -1,3 +1,9 @@
 .intro__text {
   margin-right: 30px;
 }
+
+@media (max-screen: 320px) {
+    .intro__text {
+        margin-right: 0;
+    }
+}

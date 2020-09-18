@@ -6,13 +6,17 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__claim/header__claim.css);
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__subtitle/intro__subtitle.css);
 @import url(../blocks/intro/__image/intro__image.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
+@import url(../blocks/place/_direction/place_direction_reverse.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__image/_places/place__image_places_forest.css);
+@import url(../blocks/place/__image/_places/place__image_places_mountains.css);
+@import url(../blocks/place/__image/_places/place__image_places_black-sea.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__text/place__text.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
