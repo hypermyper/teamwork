@@ -1,4 +1,9 @@
 .intro__text {
   margin-right: 30px;
-  z-index: 1;
+}
+
+@media (max-screen: 320px) {
+    .intro__text {
+        margin-right: 0;
+    }
 }
