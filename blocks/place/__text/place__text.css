@@ -1,3 +1,5 @@
 .place__text {
   padding: 70px;
+  grid-area: text;
+  align-self: end;
 }

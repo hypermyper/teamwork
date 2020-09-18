@@ -1,0 +1,5 @@
+.place_direction_reverse {
+	grid-template-areas:
+	"title image"
+	"text image";
+}
