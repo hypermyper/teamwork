@@ -2,13 +2,12 @@
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  max-width: 1146px;
-  margin: 0 auto;
-  padding: 50px 67px 88px 67px;
+  max-width: 90%;
+  margin: 50px auto 88px;
   }
 
   @media (max-width: 320px) {
     .header {
-      padding: 50px 30px 60px 30px;
+      padding: 50px auto 60px ;
     }
   }

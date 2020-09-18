@@ -14,8 +14,3 @@
 	}
 }
 
-@media (max-width: 575px) {	
-	.intro__image {
-		display: none;
-	}
-}
