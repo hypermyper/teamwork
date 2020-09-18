@@ -1,9 +1,22 @@
 .footer{
  background-color: #FECDA7;
  max-width: 100%;
- min-height: 400px;
+ min-height: 300px;
  display: flex;
  justify-content: center;
  align-items: center;   
  margin: 0 auto;
 }
+
+
+@media (max-width: 1024px){
+   .footer{ 
+    min-height: 200px;
+   }
+}
+
+@media (max-width: 768px){
+    .footer{ 
+     min-height: 100px;
+    }
+ }

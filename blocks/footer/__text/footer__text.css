@@ -3,3 +3,15 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+
+@media (max-width: 1024px){
+    .footer__text{ 
+     font-size: 27px;
+    }
+ }
+ 
+ @media (max-width: 768px){
+     .footer__text{ 
+      font-size: 20px;
+     }
+  }
