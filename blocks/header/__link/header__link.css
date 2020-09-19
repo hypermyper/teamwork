@@ -10,7 +10,11 @@
   opacity: 0.8;
 }
 
-@media (max-width: 320px) {
+.header__link:last-of-type{
+  padding-right: 0;
+}
+
+@media (max-width: 437px) {
   .header__link {
     font-size: 19px;
     line-height: 1.63;

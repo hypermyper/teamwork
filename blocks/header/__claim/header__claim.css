@@ -9,8 +9,9 @@
   opacity: 0.8;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 437px) {
 	.header__claim {
-		display: none;
+    font-size: 19px;
+    line-height: 1.63;
 	}
 }
