@@ -10,9 +10,6 @@
   opacity: 0.8;
 }
 
-.header__link:last-of-type{
-  padding-right: 0;
-}
 
 @media (max-width: 437px) {
   .header__link {
