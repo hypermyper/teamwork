@@ -1,0 +1,17 @@
+.header__cell{
+    display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  list-style: none;
+  margin: 0 35px 0 0;
+}
+.header__cell:last-of-type{
+    margin: 0;
+}
+
+@media (max-width: 437px) {
+    .header__cell {
+      flex-direction: column;
+      margin: 0 0 5px;
+    }
+  }
