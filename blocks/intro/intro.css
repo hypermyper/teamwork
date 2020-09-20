@@ -7,6 +7,10 @@
   margin: 0 auto 130px;
 }
 
+.intro:first-of-type{
+  justify-items: flex-start;
+}
+
 @media (max-width: 1100px) {
 	.intro {
     width: 95%;		
