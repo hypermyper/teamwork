@@ -1,0 +1,11 @@
+.intro__text {
+  margin-right: 30px;
+}
+
+@media (max-width: 375px) {
+  .intro__text {
+    z-index: 1;
+    background: #ffffff99;
+    padding: 15px;
+  }
+}

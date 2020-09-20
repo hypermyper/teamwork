@@ -14,3 +14,17 @@
 	}
 }
 
+@media (max-width: 575px) {	
+	.intro__image {
+		margin-top: 50px;
+	}
+}
+
+@media (max-width: 375px) {
+	.intro__image {
+		margin-top: 0;
+		position: absolute;
+		right: 0;
+    top: 0;
+	}
+}
